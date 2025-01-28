@@ -15,6 +15,17 @@
   --violet-blue-circle: hsla(256, 72%, 46%, 1);
   --persian-blue-circle: hsla(241, 72%, 46%, 0);
 
+  --main-gradient: linear-gradient(
+    to bottom,
+    var(--light-slate-blue),
+    var(--light-royal-blue)
+  );
+  --secondary-gradient: linear-gradient(
+    to bottom,
+    var(--violet-blue-circle),
+    var(--persian-blue-circle)
+  );
+
   /* Colors - Neutral */
   --white: hsl(0, 0%, 100%);
   --pale-blue: hsl(221, 100%, 96%);
@@ -22,11 +33,11 @@
   --dark-gray-blue: hsl(224, 30%, 27%);
 
   /* Font Sizes */
-  --font-size-s: 0.875rem; /* 14px */
-  --font-size-m: 1rem; /* 16px */
-  --font-size-l: 1.125rem; /* 18px */
-  --font-size-xl: 1.5rem; /* 24px */
-  --font-size-xxl: 2rem; /* 32px */
+  --font-size-s: 1rem; /* 16px */
+  --font-size-m: 1.125rem; /* 18px */
+  --font-size-l: 1.5rem; /* 24px */
+  --font-size-xl: 2rem; /* 32px */
+  --font-size-xxl: 3.5rem; /* 56px */
 
   /* Typography */
   --font-family: "Hanken Grotesk", sans-serif;
