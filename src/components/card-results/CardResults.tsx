@@ -1,4 +1,4 @@
-import styles from "./card-results.module.css";
+import styles from "./CardResults.module.css";
 
 const CardResults = () => {
   const { card, title, circle, circleMain, circleSecondary, resultMessage, description } = styles;

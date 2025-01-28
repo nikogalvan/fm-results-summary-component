@@ -1,0 +1,40 @@
+.card {
+  padding: 1.5rem 3.5rem 2.5rem;
+  background: var(--main-gradient);
+  border-radius: 0 0 2rem 2rem;
+  color: var(--white);
+  text-align: center;
+}
+.title {
+  margin-block: 0;
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-extra-bold);
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 140px;
+  aspect-ratio: 1/1;
+  margin: 1.5rem auto;
+  border-radius: 50%;
+  background: var(--secondary-gradient);
+  font-weight: var(--font-weight-bold);
+}
+.circleMain,
+.resultMessage {
+  font-weight: var(--font-weight-extra-bold);
+}
+.circleMain {
+  font-size: var(--font-size-xxl);
+}
+.resultMessage {
+  font-size: var(--font-size-l);
+}
+.circleSecondary {
+  opacity: 0.5;
+}
+.description {
+  color: var(--light-lavender);
+  font-size: var(--font-size-s);
+}
