@@ -1,0 +1,14 @@
+/* MOBILE FIRST*/
+
+/* CARD */
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.8rem 1.87rem;
+}
+
+.cardTitle {
+  margin-block: 0;
+  margin-bottom: 1.5rem;
+  font-size: var(--font-size-m);
+}
