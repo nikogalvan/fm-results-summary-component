@@ -1,17 +1,17 @@
 import { SUMMARY_INFO } from "../../constants/summary-info";
+import Button from "../button/Button";
+import CardSkill from "../card-skill/CardSkill";
+import styles from "./CardSummary.module.css";
 
 const CardSummary = () => {
+  const { card, cardTitle } = styles;
   return (
-    <div>
-      <h2>Summary</h2>
-      {SUMMARY_INFO.map((summaryItem) => (
-        <div key={summaryItem.id}>
-          <img src={summaryItem.icon} alt={summaryItem.category} />
-          <span>{summaryItem.category}</span>
-          <span>{summaryItem.score}</span>
-          <span>/ 100</span>
-        </div>
+    <div className={card}>
+      <h2 className={cardTitle}>Summary</h2>
+      {SUMMARY_INFO.map((item) => (
+        <CardSkill {...item} key={item.id} />
       ))}
+      <Button>Continue</Button>
     </div>
   );
 };
