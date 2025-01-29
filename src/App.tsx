@@ -7,8 +7,6 @@ const App = () => {
     <>
       <Cards>
         <CardResults />
-      </Cards>
-      <Cards>
         <CardSummary />
       </Cards>
     </>
