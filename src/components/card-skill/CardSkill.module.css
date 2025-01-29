@@ -1,43 +1,48 @@
 /*SUMMARY ITEM */
 .summaryItem {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 0.4rem;
-  }
-  .summaryItemTitle {
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .skill-red {
-    color: var(--light-red);
-    background-color: var(--light-red-bg);
-  }
-  .skill-yellow {
-    color: var(--orangey-yellow);
-    background-color: var(--orangey-yellow-bg);
-  }
-  .skill-green {
-    color: var(--green-teal);
-    background-color: var(--green-teal-bg);
-  }
-  .skill-blue {
-    color: var(--cobalt-blue);
-    background-color: var(--cobalt-blue-bg);
-  }
-  .summaryItemIconTitle {
-    display: flex;
-    gap: 0.75rem;
-  }
-  .value, total{
-      color: darkblue; /* USAR LAS VARIABLES */
-  }
-  .value{
-      font-weight: var(--font-weight-extra);
-  }
-  
-  .total{
-      opacity: 0.5;
-  }
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.6rem;
+  font-weight: var(--font-weight-bold);
+}
+/* .sumamryItem:last-of-type {
+  margin-bottom: 1rem;
+} */
+.summaryItemTitle {
+  display: flex;
+  gap: 1rem;
+}
+
+.skill-red {
+  color: var(--light-red);
+  background-color: var(--light-red-bg);
+}
+.skill-yellow {
+  color: var(--orangey-yellow);
+  background-color: var(--orangey-yellow-bg);
+}
+.skill-green {
+  color: var(--green-teal);
+  background-color: var(--green-teal-bg);
+}
+.skill-blue {
+  color: var(--cobalt-blue);
+  background-color: var(--cobalt-blue-bg);
+}
+.summaryItemIconTitle {
+  display: flex;
+  gap: 0.75rem;
+}
+.value,
+.total {
+  color: var(--dark-gray-blue);
+}
+.value {
+  font-weight: var(--font-weight-extra-bold);
+}
+
+.total {
+  opacity: 0.5;
+}
