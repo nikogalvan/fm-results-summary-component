@@ -1,4 +1,4 @@
-@import url('./variables.css');
+@import url("./variables.css");
 *,
 *::after,
 *::before {
@@ -25,4 +25,12 @@ a {
 body {
   font-family: var(--font-family);
   background-color: var(--pale-blue);
+}
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 }
