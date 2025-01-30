@@ -1,10 +1,16 @@
 .cards {
+  max-height: 480px;
   display: flex;
   flex-direction: column;
+  background-color: var(--white);
 }
 
 @media screen and (min-width: 768px) {
   .cards {
     flex-direction: row;
+    width: 736px;
+    box-shadow: 0 30px 60px var(--light-lavender);
+    border-radius: 2rem;
+    justify-content: center;
   }
 }
