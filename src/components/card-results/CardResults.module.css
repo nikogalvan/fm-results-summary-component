@@ -40,6 +40,7 @@
 .description {
   color: var(--light-lavender);
   font-size: var(--font-size-s);
+  line-height: 1.4;
 }
 
 @media screen and (min-width : 768px) {
