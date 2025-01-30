@@ -1,12 +1,8 @@
+import { SummaryItem } from "../types";
+
 const PATH = "/assets/images/";
 
-interface SummaryItem {
-  id: string;
-  category: string;
-  score: number;
-  icon: string;
-  color: string;
-}
+
 export const SUMMARY_INFO: SummaryItem[] = [
   {
     id: crypto.randomUUID(),
@@ -34,6 +30,6 @@ export const SUMMARY_INFO: SummaryItem[] = [
     category: "Visual",
     score: 72,
     icon: `${PATH}icon-visual.svg`,
-    color: "purple",
+    color: "blue",
   },
 ];
