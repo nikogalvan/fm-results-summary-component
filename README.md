@@ -1,50 +1,59 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Results summary component solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-- Configure the top-level `parserOptions` property like this:
+## Overview
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### The challenge
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Users should be able to:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- **Bonus**: Use the local JSON data to dynamically populate the content
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Screenshot
+
+![Desktop preview](./public/desktop-design.jpg)
+
+### Links
+
+- Solution URL: [Github repository](https://github.com/nikogalvan/fm-results-summary-component)
+- Live Site URL: [Github pages](https://nikogalvan.github.io/fm-results-summary-component/)
+
+## My process
+
+### Built with
+
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [Vite](https://vite.dev/) - build tool
+- [React](https://reactjs.org/) - JS library
+- [TypeScript](https://www.typescriptlang.org/) - adds additional syntax to JavaScript
+- [CSS modules](https://github.com/css-modules/css-modules) - For styles
+
+
+
+
+### Useful resources
+
+- [Css Modules articles](https://css-tricks.com/css-modules-part-1-need/)
+
+## Author
+
+- Frontend Mentor - [@nikogalvan](https://www.frontendmentor.io/profile/nikogalvan)
