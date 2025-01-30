@@ -7,10 +7,17 @@
   background-color: var(--dark-gray-blue);
   color: var(--white);
   font-weight: var(--font-weight-extra-bold);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-s);
   line-height: 2rem;
   cursor: pointer;
+  margin-top: auto;
 }
 .button:hover {
-    background: var(--main-gradient);
+  background: var(--main-gradient);
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: var(--font-size-m);
+    height: 4rem;
+  }
 }
