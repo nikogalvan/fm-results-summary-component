@@ -11,4 +11,14 @@
   margin-block: 0;
   margin-bottom: 1.5rem;
   font-size: var(--font-size-m);
+  font-weight: var(--font-weight-regular);
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: 100%;
+    padding: 2.3rem 2.5rem 2rem;
+  }
+  .cardTitle {
+    font-size: var(--font-size-l);
+  }
 }
