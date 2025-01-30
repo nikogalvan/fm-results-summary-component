@@ -1,6 +1,6 @@
 import { SummaryItem } from "../types";
 
-const PATH = "/assets/images/";
+const PATH = "./assets/images/";
 
 
 export const SUMMARY_INFO: SummaryItem[] = [
