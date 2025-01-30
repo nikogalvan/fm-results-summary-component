@@ -12,7 +12,7 @@
   cursor: pointer;
   margin-top: auto;
 }
-.button:hover {
+.button:hover, .button:focus {
   background: var(--main-gradient);
 }
 @media screen and (min-width: 768px) {
